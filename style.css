@@ -1,0 +1,144 @@
+body {
+  font-family: "Product Sans";
+}
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 2px;
+  right: 8px;
+}
+
+a {
+  padding: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+a:visited {
+  color: black;
+}
+
+.profile-img,
+.app-menu {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 100px;
+
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.inputs [type="submit"] {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 0px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.inputs [type="submit"]:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.search-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 580px;
+  padding: 8px;
+  padding-right: 1.5rem;
+  border: 0.1px solid #dadce0;
+  border-radius: 30px;
+  margin-top: 35px;
+}
+
+.search-nav:hover {
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.microphone_icon {
+  width: 18px;
+  height: 22px;
+}
+
+.search-input,
+.search-input:active,
+.search-input:hover {
+  width: 90%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 50px;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  position: relative;
+  top: -35px;
+  margin-right: 50px;
+}
+
+.footer-right, .footer-left {
+  display: flex;
+  align-content: center;
+}
+
+li {
+  margin-left: 10px;
+  color: grey;
+}
